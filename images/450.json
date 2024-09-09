@@ -1,178 +1,435 @@
 {
-    "version": "5.1.1",
-    "flags": {},
-    "shapes": [
-        {
-            "label": "capacitor",
-            "points": [
-                [
-                    396.7941,
-                    179.1734
-                ],
-                [
-                    448.4844,
-                    179.1734
-                ],
-                [
-                    448.4844,
-                    206.5009
-                ],
-                [
-                    396.7941,
-                    206.5009
-                ]
-            ],
-            "group_id": 0,
-            "shape_type": "rectangle",
-            "flags": {}
-        },
-        {
-            "label": "current",
-            "points": [
-                [
-                    750.7542,
-                    168.2385
-                ],
-                [
-                    803.2274,
-                    168.2385
-                ],
-                [
-                    803.2274,
-                    220.6901
-                ],
-                [
-                    750.7542,
-                    220.6901
-                ]
-            ],
-            "group_id": 1,
-            "shape_type": "rectangle",
-            "flags": {}
-        },
-        {
-            "label": "capacitor",
-            "points": [
-                [
-                    588.1,
-                    50.8093
-                ],
-                [
-                    610.4595,
-                    50.8093
-                ],
-                [
-                    610.4595,
-                    103.0581
-                ],
-                [
-                    588.1,
-                    103.0581
-                ]
-            ],
-            "group_id": 2,
-            "shape_type": "rectangle",
-            "flags": {}
-        },
-        {
-            "label": "Voltage_1",
-            "points": [
-                [
-                    42.9488,
-                    168.3163
-                ],
-                [
-                    95.7567,
-                    168.3163
-                ],
-                [
-                    95.7567,
-                    222.2219
-                ],
-                [
-                    42.9488,
-                    222.2219
-                ]
-            ],
-            "group_id": 3,
-            "shape_type": "rectangle",
-            "flags": {}
-        },
-        {
-            "label": "resistor",
-            "points": [
-                [
-                    936.8368,
-                    169.1548
-                ],
-                [
-                    970.4357,
-                    169.1548
-                ],
-                [
-                    970.4357,
-                    225.1998
-                ],
-                [
-                    936.8368,
-                    225.1998
-                ]
-            ],
-            "group_id": 4,
-            "shape_type": "rectangle",
-            "flags": {}
-        },
-        {
-            "label": "resistor",
-            "points": [
-                [
-                    214.5424,
-                    57.7139
-                ],
-                [
-                    272.2755,
-                    57.7139
-                ],
-                [
-                    272.2755,
-                    94.5152
-                ],
-                [
-                    214.5424,
-                    94.5152
-                ]
-            ],
-            "group_id": 5,
-            "shape_type": "rectangle",
-            "flags": {}
-        },
-        {
-            "label": "gnd",
-            "points": [
-                [
-                    580.9047,
-                    348.0339
-                ],
-                [
-                    620.7275,
-                    348.0339
-                ],
-                [
-                    620.7275,
-                    368.0698
-                ],
-                [
-                    580.9047,
-                    368.0698
-                ]
-            ],
-            "group_id": 6,
-            "shape_type": "rectangle",
-            "flags": {}
-        }
-    ],
-    "imagePath": "450.png",
-    "imageData": null,
-    "imageHeight": 371,
-    "imageWidth": 1058
+  "version": "2.4.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "resistor",
+      "score": 0.9688233733177185,
+      "points": [
+        [
+          218.22865641117096,
+          57.631596088409424
+        ],
+        [
+          271.947178542614,
+          57.631596088409424
+        ],
+        [
+          271.947178542614,
+          95.86868810653687
+        ],
+        [
+          218.22865641117096,
+          95.86868810653687
+        ]
+      ],
+      "group_id": 0,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "Positive",
+      "score": 0.9236552715301514,
+      "points": [
+        [
+          219.0,
+          74.0
+        ]
+      ],
+      "group_id": 0,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "Negative",
+      "score": 0.9979252219200134,
+      "points": [
+        [
+          269.0,
+          75.0
+        ]
+      ],
+      "group_id": 0,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "current",
+      "score": 0.9674394130706787,
+      "points": [
+        [
+          751.0993213653564,
+          168.4420006275177
+        ],
+        [
+          802.9156184196472,
+          168.4420006275177
+        ],
+        [
+          802.9156184196472,
+          220.92397713661194
+        ],
+        [
+          751.0993213653564,
+          220.92397713661194
+        ]
+      ],
+      "group_id": 1,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "Positive",
+      "score": 0.9981721043586731,
+      "points": [
+        [
+          776.0,
+          218.0
+        ]
+      ],
+      "group_id": 1,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "Negative",
+      "score": 0.9988522529602051,
+      "points": [
+        [
+          777.0,
+          169.0
+        ]
+      ],
+      "group_id": 1,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "capacitor",
+      "score": 0.9671044945716858,
+      "points": [
+        [
+          586.4221050739288,
+          49.35386323928833
+        ],
+        [
+          612.449818611145,
+          49.35386323928833
+        ],
+        [
+          612.449818611145,
+          102.02111506462097
+        ],
+        [
+          586.4221050739288,
+          102.02111506462097
+        ]
+      ],
+      "group_id": 2,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "Positive",
+      "score": 0.999010443687439,
+      "points": [
+        [
+          592.3333333333334,
+          77.16666666666666
+        ]
+      ],
+      "group_id": 2,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "Negative",
+      "score": 0.9989911317825317,
+      "points": [
+        [
+          607.0,
+          76.5
+        ]
+      ],
+      "group_id": 2,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "Voltage_1",
+      "score": 0.9637084007263184,
+      "points": [
+        [
+          43.389537550508976,
+          135.09670037031174
+        ],
+        [
+          96.51473960280418,
+          135.09670037031174
+        ],
+        [
+          96.51473960280418,
+          246.20415711402893
+        ],
+        [
+          43.389537550508976,
+          246.20415711402893
+        ]
+      ],
+      "group_id": 3,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "Positive",
+      "score": 0.9997602701187134,
+      "points": [
+        [
+          69.0,
+          161.0
+        ]
+      ],
+      "group_id": 3,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "Negative",
+      "score": 0.999875545501709,
+      "points": [
+        [
+          70.0,
+          216.0
+        ]
+      ],
+      "group_id": 3,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "resistor",
+      "score": 0.9622578620910645,
+      "points": [
+        [
+          935.3363264799118,
+          168.70124733448029
+        ],
+        [
+          971.5422006845474,
+          168.70124733448029
+        ],
+        [
+          971.5422006845474,
+          222.91124093532562
+        ],
+        [
+          935.3363264799118,
+          222.91124093532562
+        ]
+      ],
+      "group_id": 4,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "Negative",
+      "score": 0.9999037384986877,
+      "points": [
+        [
+          953.0,
+          218.0
+        ]
+      ],
+      "group_id": 4,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "capacitor",
+      "score": 0.9501090049743652,
+      "points": [
+        [
+          395.6602620482445,
+          180.7988804578781
+        ],
+        [
+          450.03654938936234,
+          180.7988804578781
+        ],
+        [
+          450.03654938936234,
+          208.05844151973724
+        ],
+        [
+          395.6602620482445,
+          208.05844151973724
+        ]
+      ],
+      "group_id": 5,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "Positive",
+      "score": 0.9752971529960632,
+      "points": [
+        [
+          423.0,
+          181.0
+        ]
+      ],
+      "group_id": 5,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "Negative",
+      "score": 0.9981547594070435,
+      "points": [
+        [
+          423.0,
+          201.0
+        ]
+      ],
+      "group_id": 5,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "gnd",
+      "score": 0.9458802938461304,
+      "points": [
+        [
+          580.0690157413483,
+          346.72579073905945
+        ],
+        [
+          621.6794049739838,
+          346.72579073905945
+        ],
+        [
+          621.6794049739838,
+          368.6536099910736
+        ],
+        [
+          580.0690157413483,
+          368.6536099910736
+        ]
+      ],
+      "group_id": 6,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "port",
+      "score": 0.9996844530105591,
+      "points": [
+        [
+          600.0,
+          348.0
+        ]
+      ],
+      "group_id": 6,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "Positive",
+      "score": null,
+      "points": [
+        [
+          954.3333333333334,
+          171.16666666666669
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "450.png",
+  "imageData": null,
+  "imageHeight": 371,
+  "imageWidth": 1058,
+  "text": ""
 }
