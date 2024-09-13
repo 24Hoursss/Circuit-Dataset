@@ -1,51 +1,10 @@
+has_visible: 'true'
 classes:
-  Dido_amp:
-  - InN
-  - InP
-  - OutN
-  - OutP
-  Diso_amp:
-  - InN
-  - InP
-  - Out
-  Siso_amp:
-  - In
-  - Out
-  Voltage_1: []
-  Voltage_2: []
-  capacitor: []
-  cross: []
-  current:
-  - Positive
-  - Negative
-  diode:
-  - In
-  - Out
-  gnd:
-  - port
-  inductor: []
-  nmos:
-  - Drain
-  - Source
-  - Gate
-  nmos-bulk:
-  - Drain
-  - Source
-  - Gate
-  - Body
-  nmos-cross:
-  - Drain
-  - Source
-  - Gate
-  npn:
-  - Base
-  - Emitter
-  - Collect
-  npn-cross:
-  - Base
-  - Emitter
-  - Collect
   pmos:
+  - Drain
+  - Source
+  - Gate
+  pmos-cross:
   - Drain
   - Source
   - Gate
@@ -54,10 +13,36 @@ classes:
   - Source
   - Gate
   - Body
-  pmos-cross:
+  nmos:
   - Drain
   - Source
   - Gate
+  nmos-cross:
+  - Drain
+  - Source
+  - Gate
+  nmos-bulk:
+  - Drain
+  - Source
+  - Gate
+  - Body
+  Voltage_1:
+  - Positive
+  - Negative
+  Voltage_2:
+  - Positive
+  - Negative
+  current:
+  - Positive
+  - Negative
+  npn:
+  - Base
+  - Emitter
+  - Collect
+  npn-cross:
+  - Base
+  - Emitter
+  - Collect
   pnp:
   - Base
   - Emitter
@@ -66,7 +51,36 @@ classes:
   - Base
   - Emitter
   - Collect
-  resistor: []
-  resistor2: []
+  diode:
+  - In
+  - Out
+  Diso_amp:
+  - InN
+  - InP
+  - Out
+  Siso_amp:
+  - In
+  - Out
+  Dido_amp:
+  - InN
+  - InP
+  - OutN
+  - OutP
+  capacitor:
+  - Positive
+  - Negative
+  gnd:
+  - port
+  inductor:
+  - Positive
+  - Negative
+  resistor:
+  - Positive
+  - Negative
+  resistor2:
+  - Positive
+  - Negative
+  cross: []
   vdd: []
-has_visible: 'true'
+  switch: []
+  switch-3: []
