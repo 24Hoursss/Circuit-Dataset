@@ -1,178 +1,435 @@
 {
-    "version": "5.1.1",
-    "flags": {},
-    "shapes": [
-        {
-            "label": "resistor",
-            "points": [
-                [
-                    95.0,
-                    66.0
-                ],
-                [
-                    130.0,
-                    66.0
-                ],
-                [
-                    130.0,
-                    83.0
-                ],
-                [
-                    95.0,
-                    83.0
-                ]
-            ],
-            "group_id": 0,
-            "shape_type": "rectangle",
-            "flags": {}
-        },
-        {
-            "label": "capacitor",
-            "points": [
-                [
-                    292.0,
-                    115.0
-                ],
-                [
-                    312.0,
-                    115.0
-                ],
-                [
-                    312.0,
-                    128.0
-                ],
-                [
-                    292.0,
-                    128.0
-                ]
-            ],
-            "group_id": 1,
-            "shape_type": "rectangle",
-            "flags": {}
-        },
-        {
-            "label": "resistor",
-            "points": [
-                [
-                    148.0,
-                    109.0
-                ],
-                [
-                    163.0,
-                    109.0
-                ],
-                [
-                    163.0,
-                    144.0
-                ],
-                [
-                    148.0,
-                    144.0
-                ]
-            ],
-            "group_id": 2,
-            "shape_type": "rectangle",
-            "flags": {}
-        },
-        {
-            "label": "resistor",
-            "points": [
-                [
-                    186.0,
-                    23.0
-                ],
-                [
-                    220.0,
-                    23.0
-                ],
-                [
-                    220.0,
-                    39.0
-                ],
-                [
-                    186.0,
-                    39.0
-                ]
-            ],
-            "group_id": 3,
-            "shape_type": "rectangle",
-            "flags": {}
-        },
-        {
-            "label": "Diso_amp",
-            "points": [
-                [
-                    181.0,
-                    54.0
-                ],
-                [
-                    231.0,
-                    54.0
-                ],
-                [
-                    231.0,
-                    112.0
-                ],
-                [
-                    181.0,
-                    112.0
-                ]
-            ],
-            "group_id": 4,
-            "shape_type": "rectangle",
-            "flags": {}
-        },
-        {
-            "label": "gnd",
-            "points": [
-                [
-                    143.0,
-                    158.0
-                ],
-                [
-                    167.0,
-                    158.0
-                ],
-                [
-                    167.0,
-                    181.0
-                ],
-                [
-                    143.0,
-                    181.0
-                ]
-            ],
-            "group_id": 5,
-            "shape_type": "rectangle",
-            "flags": {}
-        },
-        {
-            "label": "gnd",
-            "points": [
-                [
-                    290.0,
-                    158.0
-                ],
-                [
-                    314.0,
-                    158.0
-                ],
-                [
-                    314.0,
-                    181.0
-                ],
-                [
-                    290.0,
-                    181.0
-                ]
-            ],
-            "group_id": 6,
-            "shape_type": "rectangle",
-            "flags": {}
-        }
-    ],
-    "imagePath": "864.png",
-    "imageData": null,
-    "imageHeight": 191,
-    "imageWidth": 432
+  "version": "2.4.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "resistor",
+      "score": 0.9607688784599304,
+      "points": [
+        [
+          95.91380524635315,
+          66.47585105895996
+        ],
+        [
+          128.65954113006592,
+          66.47585105895996
+        ],
+        [
+          128.65954113006592,
+          83.04636669158936
+        ],
+        [
+          95.91380524635315,
+          83.04636669158936
+        ]
+      ],
+      "group_id": 0,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "Positive",
+      "score": 0.9996798634529114,
+      "points": [
+        [
+          97.0,
+          74.0
+        ]
+      ],
+      "group_id": 0,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "Negative",
+      "score": 0.9990313053131104,
+      "points": [
+        [
+          126.0,
+          74.0
+        ]
+      ],
+      "group_id": 0,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "resistor",
+      "score": 0.9533650279045105,
+      "points": [
+        [
+          147.37336921691895,
+          109.7992000579834
+        ],
+        [
+          163.3212947845459,
+          109.7992000579834
+        ],
+        [
+          163.3212947845459,
+          143.4385814666748
+        ],
+        [
+          147.37336921691895,
+          143.4385814666748
+        ]
+      ],
+      "group_id": 1,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "Positive",
+      "score": 0.9991366267204285,
+      "points": [
+        [
+          155.0,
+          111.0
+        ]
+      ],
+      "group_id": 1,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "Negative",
+      "score": 0.9997553825378418,
+      "points": [
+        [
+          154.0,
+          140.0
+        ]
+      ],
+      "group_id": 1,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "resistor",
+      "score": 0.9509528875350952,
+      "points": [
+        [
+          186.25891971588135,
+          22.16552209854126
+        ],
+        [
+          219.74187469482422,
+          22.16552209854126
+        ],
+        [
+          219.74187469482422,
+          39.138317584991455
+        ],
+        [
+          186.25891971588135,
+          39.138317584991455
+        ]
+      ],
+      "group_id": 2,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "Positive",
+      "score": 0.999041736125946,
+      "points": [
+        [
+          187.0,
+          30.0
+        ]
+      ],
+      "group_id": 2,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "Negative",
+      "score": 0.9932839870452881,
+      "points": [
+        [
+          217.0,
+          30.0
+        ]
+      ],
+      "group_id": 2,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "Diso_amp",
+      "score": 0.9486913681030273,
+      "points": [
+        [
+          181.0575415155162,
+          54.27755069732666
+        ],
+        [
+          229.43700471131697,
+          54.27755069732666
+        ],
+        [
+          229.43700471131697,
+          109.76801776885986
+        ],
+        [
+          181.0575415155162,
+          109.76801776885986
+        ]
+      ],
+      "group_id": 3,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "InN",
+      "score": 0.9996002912521362,
+      "points": [
+        [
+          183.93478260869563,
+          74.16847826086956
+        ]
+      ],
+      "group_id": 3,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "InP",
+      "score": 0.9996811747550964,
+      "points": [
+        [
+          182.57608695652172,
+          91.55978260869566
+        ]
+      ],
+      "group_id": 3,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "Out",
+      "score": 0.9985945224761963,
+      "points": [
+        [
+          227.68478260869563,
+          82.32065217391305
+        ]
+      ],
+      "group_id": 3,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "gnd",
+      "score": 0.9484658241271973,
+      "points": [
+        [
+          288.86222076416016,
+          157.42683792114258
+        ],
+        [
+          314.52923583984375,
+          157.42683792114258
+        ],
+        [
+          314.52923583984375,
+          179.7736473083496
+        ],
+        [
+          288.86222076416016,
+          179.7736473083496
+        ]
+      ],
+      "group_id": 4,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "port",
+      "score": 0.9997016191482544,
+      "points": [
+        [
+          301.0,
+          160.0
+        ]
+      ],
+      "group_id": 4,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "capacitor",
+      "score": 0.9460817575454712,
+      "points": [
+        [
+          291.93621253967285,
+          114.30119132995605
+        ],
+        [
+          312.2500705718994,
+          114.30119132995605
+        ],
+        [
+          312.2500705718994,
+          126.5892276763916
+        ],
+        [
+          291.93621253967285,
+          126.5892276763916
+        ]
+      ],
+      "group_id": 5,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "Positive",
+      "score": 0.9995375871658325,
+      "points": [
+        [
+          301.0,
+          115.0
+        ]
+      ],
+      "group_id": 5,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "Negative",
+      "score": 0.9996546506881714,
+      "points": [
+        [
+          301.0,
+          122.0
+        ]
+      ],
+      "group_id": 5,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "gnd",
+      "score": 0.939485490322113,
+      "points": [
+        [
+          142.61274003982544,
+          157.62665176391602
+        ],
+        [
+          168.55081701278687,
+          157.62665176391602
+        ],
+        [
+          168.55081701278687,
+          179.9842758178711
+        ],
+        [
+          142.61274003982544,
+          179.9842758178711
+        ]
+      ],
+      "group_id": 6,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "port",
+      "score": 0.9997390508651733,
+      "points": [
+        [
+          154.0,
+          159.0
+        ]
+      ],
+      "group_id": 6,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "864.png",
+  "imageData": "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RXriLsRUyTtAGSck/WgCWiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAwPE3hfS/F+lNpurRyvATuUxyFGRuxGOv45FeT3Op6p8Fbi302C90/WdFmf5LE7Yr2PJ/2R831Oc9MCvVfF2k61rOhyWmh62dJum/5bCMNuH93PVfqOa4D4U6DFpOtazYarpFvJ4gsSjT6oLn7QZN+SOvMZwM44JoA9BtrpvFHhOWQWl1YPe2zxiG8i2SRllI5HpzmuV1T4ZNq2n+GbWe+VDounyWyyRllbzisYSRcf3WTOD7V6VRQBy1tpuv2999o8+w3zW6rcthz5kqxkBgvb5sZOeVAGOM1e8P2V5Y2Uov3hkuppmlkkiz85IHJyB6Y6cAAdq26KACiiigAooooAKKKKACiiigAooooAKKKKACvMPjF/rPBn/Yfg/rXp9eYfGL/AFngz/sPwf1oA9PooooAKq/Zbc3a3ZhjNwqGNZig3hSclQeuMgce1WqKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACvPvBn/ACVH4hf9dbH/ANFNXf71/vD868/8GMo+KPxCO4cy2Pf/AKZNQB6FRTQyngMD+NOoAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACvMPjF/rPBn/Yfg/rXpxYDqQK8w+MLKZPBuGB/4n8Hf60AeoUU3ev94fnTqACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigDwLxT4H0mx+K1u2stcpouvkrBJBOU8i64yp/2WPI/3vaurPwK8Gxh5DLqi8ZZvtmOnqcV1vjfwxD4v8KXelSELKw8y3k7xyryp/Pg+xNeYz+PNT8R+ELLwbAHj8XXlw2mX4xzAicSSn2K/wDs2OlAD/hV4SsbjxnqfiXTJLpdEs5GtdP82YubhsYdz/s+n19q9wrK0HR7Tw/odlpFkgW3tYhGuBjd6sfcnJPua1aACiiigAooooAKKKKACiiigAooooAKKKKACiiigDyb41eFDqmj23iK3SaSTSzm5hjkKmW2zlsHsR1z6E1Hpfwc8C67pNpqVrcapNbXEYliY3ecZ/DqOleryxJPE8UiK8bqVZWGQQeoNeO2XiKP4Ralrvh/U950vy31DRmP8W48wD/gR/QnvQBh6x8NtEl8f6Z4X0GW+LRr9q1SeS5LiGLsmOzN/UV9AooRAq/dAwOc1wvwx8P3Vho9xr2rqDrmtyfa7piOUU8pH7YB6ds47V3tABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAVzdr4O0i08ZXvieK3xqF1CsTn+EY6sB6kbQf933NdJRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABXOeJfB2k+LH019ShDtYXK3EZx97HVD/snAyPaujooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/9k=",
+  "imageHeight": 191,
+  "imageWidth": 432,
+  "text": ""
 }
