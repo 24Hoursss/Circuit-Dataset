@@ -1,6 +1,14 @@
 {
   "version": "2.4.0",
-  "flags": {},
+  "flags": {
+    "DISO-Amplifier": false,
+    "DIDO-Amplifier": false,
+    "SISO-Amplifier": false,
+    "Bandgap": false,
+    "LDO": false,
+    "Comparator": false,
+    "Else": true
+  },
   "shapes": [
     {
       "kie_linking": [],
@@ -914,6 +922,7 @@
       "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "Positive",
       "score": null,
       "points": [
@@ -927,10 +936,10 @@
       "difficult": false,
       "shape_type": "point",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "Negative",
       "score": null,
       "points": [
@@ -944,8 +953,7 @@
       "difficult": false,
       "shape_type": "point",
       "flags": {},
-      "attributes": {},
-      "kie_linking": []
+      "attributes": {}
     }
   ],
   "imagePath": "0.png",
