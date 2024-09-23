@@ -1,6 +1,14 @@
 {
   "version": "2.4.0",
-  "flags": {},
+  "flags": {
+    "DISO-Amplifier": false,
+    "DIDO-Amplifier": false,
+    "SISO-Amplifier": false,
+    "Bandgap": true,
+    "LDO": false,
+    "Comparator": false,
+    "Else": false
+  },
   "shapes": [
     {
       "kie_linking": [],
@@ -37,19 +45,19 @@
       "score": null,
       "points": [
         [
-          708.0,
+          711.5714285714287,
           245.0
         ],
         [
-          837.0,
+          840.5714285714287,
           245.0
         ],
         [
-          837.0,
+          840.5714285714287,
           404.0
         ],
         [
-          708.0,
+          711.5714285714287,
           404.0
         ]
       ],
@@ -1149,6 +1157,7 @@
       "attributes": {}
     },
     {
+      "kie_linking": [],
       "label": "vdd",
       "score": null,
       "points": [
@@ -1173,6 +1182,56 @@
       "description": "",
       "difficult": false,
       "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "InN",
+      "score": null,
+      "points": [
+        [
+          716.7192118226601,
+          292.04926108374383
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "InP",
+      "score": null,
+      "points": [
+        [
+          716.7192118226601,
+          357.0738916256158
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "Out",
+      "score": null,
+      "points": [
+        [
+          833.9605911330049,
+          326.0394088669951
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "point",
       "flags": {},
       "attributes": {},
       "kie_linking": []
