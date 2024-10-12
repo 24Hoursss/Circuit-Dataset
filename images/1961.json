@@ -1,130 +1,263 @@
 {
-    "version": "5.1.1",
-    "flags": {},
-    "shapes": [
-        {
-            "label": "vdd",
-            "points": [
-                [
-                    153.0,
-                    21.0
-                ],
-                [
-                    194.0,
-                    21.0
-                ],
-                [
-                    194.0,
-                    38.0
-                ],
-                [
-                    153.0,
-                    38.0
-                ]
-            ],
-            "group_id": 0,
-            "shape_type": "rectangle",
-            "flags": {}
-        },
-        {
-            "label": "resistor",
-            "points": [
-                [
-                    156.0,
-                    73.0
-                ],
-                [
-                    193.0,
-                    73.0
-                ],
-                [
-                    193.0,
-                    134.0
-                ],
-                [
-                    156.0,
-                    134.0
-                ]
-            ],
-            "group_id": 1,
-            "shape_type": "rectangle",
-            "flags": {}
-        },
-        {
-            "label": "nmos",
-            "points": [
-                [
-                    108.0,
-                    162.0
-                ],
-                [
-                    179.0,
-                    162.0
-                ],
-                [
-                    179.0,
-                    241.0
-                ],
-                [
-                    108.0,
-                    241.0
-                ]
-            ],
-            "group_id": 2,
-            "shape_type": "rectangle",
-            "flags": {}
-        },
-        {
-            "label": "resistor",
-            "points": [
-                [
-                    156.0,
-                    273.0
-                ],
-                [
-                    193.0,
-                    273.0
-                ],
-                [
-                    193.0,
-                    334.0
-                ],
-                [
-                    156.0,
-                    334.0
-                ]
-            ],
-            "group_id": 3,
-            "shape_type": "rectangle",
-            "flags": {}
-        },
-        {
-            "label": "gnd",
-            "points": [
-                [
-                    156.0,
-                    368.0
-                ],
-                [
-                    192.0,
-                    368.0
-                ],
-                [
-                    192.0,
-                    394.0
-                ],
-                [
-                    156.0,
-                    394.0
-                ]
-            ],
-            "group_id": 4,
-            "shape_type": "rectangle",
-            "flags": {}
-        }
-    ],
-    "imagePath": "1961.png",
-    "imageData": null,
-    "imageHeight": 409,
-    "imageWidth": 255
+  "version": "2.4.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "resistor",
+      "score": 0.9544841647148132,
+      "points": [
+        [
+          154.85156923532486,
+          273.93129909038544
+        ],
+        [
+          192.24944120645523,
+          273.93129909038544
+        ],
+        [
+          192.24944120645523,
+          334.11030209064484
+        ],
+        [
+          154.85156923532486,
+          334.11030209064484
+        ]
+      ],
+      "group_id": 0,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "Positive",
+      "score": 0.9997611045837402,
+      "points": [
+        [
+          173.0,
+          274.0
+        ]
+      ],
+      "group_id": 0,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "Negative",
+      "score": 0.9999179840087891,
+      "points": [
+        [
+          173.0,
+          329.0
+        ]
+      ],
+      "group_id": 0,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "gnd",
+      "score": 0.9507266283035278,
+      "points": [
+        [
+          155.060271859169,
+          366.6307101249695
+        ],
+        [
+          193.05604600906372,
+          366.6307101249695
+        ],
+        [
+          193.05604600906372,
+          393.3710720539093
+        ],
+        [
+          155.060271859169,
+          393.3710720539093
+        ]
+      ],
+      "group_id": 1,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "port",
+      "score": 0.9990922808647156,
+      "points": [
+        [
+          172.0,
+          369.0
+        ]
+      ],
+      "group_id": 1,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "nmos",
+      "score": 0.9458552598953247,
+      "points": [
+        [
+          107.82309871912003,
+          161.43280816078186
+        ],
+        [
+          178.70632058382034,
+          161.43280816078186
+        ],
+        [
+          178.70632058382034,
+          243.4820226430893
+        ],
+        [
+          107.82309871912003,
+          243.4820226430893
+        ]
+      ],
+      "group_id": 2,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "Drain",
+      "score": 0.9997545480728149,
+      "points": [
+        [
+          171.0,
+          175.0
+        ]
+      ],
+      "group_id": 2,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "Source",
+      "score": 0.9999858140945435,
+      "points": [
+        [
+          171.0,
+          228.0
+        ]
+      ],
+      "group_id": 2,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "Gate",
+      "score": 0.9999388456344604,
+      "points": [
+        [
+          112.0,
+          201.0
+        ]
+      ],
+      "group_id": 2,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "resistor",
+      "score": 0.9434205293655396,
+      "points": [
+        [
+          154.8804331421852,
+          73.00566977262497
+        ],
+        [
+          192.43042570352554,
+          73.00566977262497
+        ],
+        [
+          192.43042570352554,
+          131.93114060163498
+        ],
+        [
+          154.8804331421852,
+          131.93114060163498
+        ]
+      ],
+      "group_id": 3,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "Positive",
+      "score": 0.9995030164718628,
+      "points": [
+        [
+          172.0,
+          73.0
+        ]
+      ],
+      "group_id": 3,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "Negative",
+      "score": 0.9997058510780334,
+      "points": [
+        [
+          172.0,
+          128.0
+        ]
+      ],
+      "group_id": 3,
+      "description": null,
+      "difficult": false,
+      "shape_type": "point",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "1961.png",
+  "imageData": null,
+  "imageHeight": 409,
+  "imageWidth": 255,
+  "text": ""
 }
