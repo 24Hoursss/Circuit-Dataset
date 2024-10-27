@@ -1,1370 +1,1370 @@
 {
-  "version": "2.4.0",
-  "flags": {
-    "DISO-Amplifier": false,
-    "DIDO-Amplifier": false,
-    "SISO-Amplifier": false,
-    "Bandgap": false,
-    "LDO": false,
-    "Comparator": false,
-    "Else": false
-  },
-  "shapes": [
-    {
-      "kie_linking": [],
-      "label": "resistor",
-      "score": 0.9710874557495117,
-      "points": [
-        [
-          106.07996213436127,
-          139.61157274246216
-        ],
-        [
-          117.86029624938965,
-          139.61157274246216
-        ],
-        [
-          117.86029624938965,
-          162.53398656845093
-        ],
-        [
-          106.07996213436127,
-          162.53398656845093
-        ]
-      ],
-      "group_id": 0,
-      "description": null,
-      "difficult": false,
-      "shape_type": "rectangle",
-      "flags": {},
-      "attributes": {}
+    "version": "2.4.0",
+    "flags": {
+        "DISO-Amplifier": false,
+        "DIDO-Amplifier": false,
+        "SISO-Amplifier": false,
+        "Bandgap": false,
+        "LDO": false,
+        "Comparator": false,
+        "Else": false
     },
-    {
-      "kie_linking": [],
-      "label": "Positive",
-      "score": 0.9761683940887451,
-      "points": [
-        [
-          111.51079136690646,
-          141.0071942446043
-        ]
-      ],
-      "group_id": 0,
-      "description": null,
-      "difficult": false,
-      "shape_type": "point",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "Negative",
-      "score": 0.9995562434196472,
-      "points": [
-        [
-          111.15107913669064,
-          160.43165467625897
-        ]
-      ],
-      "group_id": 0,
-      "description": null,
-      "difficult": false,
-      "shape_type": "point",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "nmos-bulk",
-      "score": 0.9659073352813721,
-      "points": [
-        [
-          346.92498445510864,
-          164.54870128631592
-        ],
-        [
-          367.27657651901245,
-          164.54870128631592
-        ],
-        [
-          367.27657651901245,
-          191.9735050201416
-        ],
-        [
-          346.92498445510864,
-          191.9735050201416
-        ]
-      ],
-      "group_id": 1,
-      "description": null,
-      "difficult": false,
-      "shape_type": "rectangle",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "Drain",
-      "score": 0.9994719624519348,
-      "points": [
-        [
-          364.0,
-          168.0
-        ]
-      ],
-      "group_id": 1,
-      "description": null,
-      "difficult": false,
-      "shape_type": "point",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "Source",
-      "score": 0.9991613626480103,
-      "points": [
-        [
-          364.0,
-          187.0
-        ]
-      ],
-      "group_id": 1,
-      "description": null,
-      "difficult": false,
-      "shape_type": "point",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "Gate",
-      "score": 0.9999755024909973,
-      "points": [
-        [
-          350.0,
-          178.0
-        ]
-      ],
-      "group_id": 1,
-      "description": null,
-      "difficult": false,
-      "shape_type": "point",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "Body",
-      "score": 0.9983837604522705,
-      "points": [
-        [
-          355.0,
-          178.0
-        ]
-      ],
-      "group_id": 1,
-      "description": null,
-      "difficult": false,
-      "shape_type": "point",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "npn",
-      "score": 0.9595486521720886,
-      "points": [
-        [
-          163.09751200675964,
-          140.24573945999146
-        ],
-        [
-          181.79053282737732,
-          140.24573945999146
-        ],
-        [
-          181.79053282737732,
-          163.0251145362854
-        ],
-        [
-          163.09751200675964,
-          163.0251145362854
-        ]
-      ],
-      "group_id": 2,
-      "description": null,
-      "difficult": false,
-      "shape_type": "rectangle",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "Base",
-      "score": 0.9997714161872864,
-      "points": [
-        [
-          179.0,
-          150.0
-        ]
-      ],
-      "group_id": 2,
-      "description": null,
-      "difficult": false,
-      "shape_type": "point",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "Emitter",
-      "score": 0.999984622001648,
-      "points": [
-        [
-          165.0,
-          160.0
-        ]
-      ],
-      "group_id": 2,
-      "description": null,
-      "difficult": false,
-      "shape_type": "point",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "Collect",
-      "score": 0.9999766945838928,
-      "points": [
-        [
-          166.0,
-          141.0
-        ]
-      ],
-      "group_id": 2,
-      "description": null,
-      "difficult": false,
-      "shape_type": "point",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "resistor",
-      "score": 0.9570590257644653,
-      "points": [
-        [
-          160.06258642673492,
-          66.59198665618896
-        ],
-        [
-          172.05534398555756,
-          66.59198665618896
-        ],
-        [
-          172.05534398555756,
-          89.63466930389404
-        ],
-        [
-          160.06258642673492,
-          89.63466930389404
-        ]
-      ],
-      "group_id": 3,
-      "description": null,
-      "difficult": false,
-      "shape_type": "rectangle",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "Positive",
-      "score": 0.9996433854103088,
-      "points": [
-        [
-          165.0,
-          67.0
-        ]
-      ],
-      "group_id": 3,
-      "description": null,
-      "difficult": false,
-      "shape_type": "point",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "Negative",
-      "score": 0.999900221824646,
-      "points": [
-        [
-          165.0,
-          87.0
-        ]
-      ],
-      "group_id": 3,
-      "description": null,
-      "difficult": false,
-      "shape_type": "point",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "resistor",
-      "score": 0.9538332223892212,
-      "points": [
-        [
-          49.93416818976402,
-          66.67652606964111
-        ],
-        [
-          61.94943830370903,
-          66.67652606964111
-        ],
-        [
-          61.94943830370903,
-          89.42413830757141
-        ],
-        [
-          49.93416818976402,
-          89.42413830757141
-        ]
-      ],
-      "group_id": 4,
-      "description": null,
-      "difficult": false,
-      "shape_type": "rectangle",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "Positive",
-      "score": 0.9935551881790161,
-      "points": [
-        [
-          55.0,
-          66.0
-        ]
-      ],
-      "group_id": 4,
-      "description": null,
-      "difficult": false,
-      "shape_type": "point",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "Negative",
-      "score": 0.9997494220733643,
-      "points": [
-        [
-          54.0,
-          87.0
-        ]
-      ],
-      "group_id": 4,
-      "description": null,
-      "difficult": false,
-      "shape_type": "point",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "capacitor",
-      "score": 0.9490634202957153,
-      "points": [
-        [
-          191.02322387695312,
-          162.90962982177734
-        ],
-        [
-          203.90718793869019,
-          162.90962982177734
-        ],
-        [
-          203.90718793869019,
-          170.17432689666748
-        ],
-        [
-          191.02322387695312,
-          170.17432689666748
-        ]
-      ],
-      "group_id": 5,
-      "description": null,
-      "difficult": false,
-      "shape_type": "rectangle",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "Positive",
-      "score": 0.9999765157699585,
-      "points": [
-        [
-          197.0,
-          163.0
-        ]
-      ],
-      "group_id": 5,
-      "description": null,
-      "difficult": false,
-      "shape_type": "point",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "Negative",
-      "score": 0.9999805688858032,
-      "points": [
-        [
-          197.0,
-          168.0
-        ]
-      ],
-      "group_id": 5,
-      "description": null,
-      "difficult": false,
-      "shape_type": "point",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "resistor",
-      "score": 0.9463677406311035,
-      "points": [
-        [
-          217.0368673801422,
-          145.23344373703003
-        ],
-        [
-          240.1068012714386,
-          145.23344373703003
-        ],
-        [
-          240.1068012714386,
-          158.29853773117065
-        ],
-        [
-          217.0368673801422,
-          158.29853773117065
-        ]
-      ],
-      "group_id": 6,
-      "description": null,
-      "difficult": false,
-      "shape_type": "rectangle",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "Positive",
-      "score": 0.9991317987442017,
-      "points": [
-        [
-          217.98561151079136,
-          151.79856115107913
-        ]
-      ],
-      "group_id": 6,
-      "description": null,
-      "difficult": false,
-      "shape_type": "point",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "Negative",
-      "score": 0.9999158382415771,
-      "points": [
-        [
-          238.0,
-          150.0
-        ]
-      ],
-      "group_id": 6,
-      "description": null,
-      "difficult": false,
-      "shape_type": "point",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "gnd",
-      "score": 0.9427463412284851,
-      "points": [
-        [
-          359.2972912788391,
-          244.80600571632385
-        ],
-        [
-          371.39526891708374,
-          244.80600571632385
-        ],
-        [
-          371.39526891708374,
-          252.4124939441681
-        ],
-        [
-          359.2972912788391,
-          252.4124939441681
-        ]
-      ],
-      "group_id": 7,
-      "description": null,
-      "difficult": false,
-      "shape_type": "rectangle",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "port",
-      "score": 0.9985547065734863,
-      "points": [
-        [
-          365.3207547169811,
-          246.14065180102915
-        ]
-      ],
-      "group_id": 7,
-      "description": null,
-      "difficult": false,
-      "shape_type": "point",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "capacitor",
-      "score": 0.9423738718032837,
-      "points": [
-        [
-          104.9622220993042,
-          228.77939796447754
-        ],
-        [
-          117.93644833564758,
-          228.77939796447754
-        ],
-        [
-          117.93644833564758,
-          236.09871864318848
-        ],
-        [
-          104.9622220993042,
-          236.09871864318848
-        ]
-      ],
-      "group_id": 8,
-      "description": null,
-      "difficult": false,
-      "shape_type": "rectangle",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "Positive",
-      "score": 0.9999587535858154,
-      "points": [
-        [
-          111.0,
-          229.0
-        ]
-      ],
-      "group_id": 8,
-      "description": null,
-      "difficult": false,
-      "shape_type": "point",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "Negative",
-      "score": 0.9999697804450989,
-      "points": [
-        [
-          111.0,
-          234.0
-        ]
-      ],
-      "group_id": 8,
-      "description": null,
-      "difficult": false,
-      "shape_type": "point",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "gnd",
-      "score": 0.9415583610534668,
-      "points": [
-        [
-          159.15098690986633,
-          178.7340636253357
-        ],
-        [
-          171.46770119667053,
-          178.7340636253357
-        ],
-        [
-          171.46770119667053,
-          186.50490713119507
-        ],
-        [
-          159.15098690986633,
-          186.50490713119507
-        ]
-      ],
-      "group_id": 9,
-      "description": null,
-      "difficult": false,
-      "shape_type": "rectangle",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "port",
-      "score": 0.9995900988578796,
-      "points": [
-        [
-          165.28776978417264,
-          179.49640287769782
-        ]
-      ],
-      "group_id": 9,
-      "description": null,
-      "difficult": false,
-      "shape_type": "point",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "gnd",
-      "score": 0.940516471862793,
-      "points": [
-        [
-          105.40165597200394,
-          244.8620524406433
-        ],
-        [
-          117.63697987794876,
-          244.8620524406433
-        ],
-        [
-          117.63697987794876,
-          252.33131551742554
-        ],
-        [
-          105.40165597200394,
-          252.33131551742554
-        ]
-      ],
-      "group_id": 10,
-      "description": null,
-      "difficult": false,
-      "shape_type": "rectangle",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "port",
-      "score": 0.9997658133506775,
-      "points": [
-        [
-          111.0,
-          245.0
-        ]
-      ],
-      "group_id": 10,
-      "description": null,
-      "difficult": false,
-      "shape_type": "point",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "gnd",
-      "score": 0.9402591586112976,
-      "points": [
-        [
-          49.289150178432465,
-          178.88960766792297
-        ],
-        [
-          61.52005332708359,
-          178.88960766792297
-        ],
-        [
-          61.52005332708359,
-          186.40223050117493
-        ],
-        [
-          49.289150178432465,
-          186.40223050117493
-        ]
-      ],
-      "group_id": 11,
-      "description": null,
-      "difficult": false,
-      "shape_type": "rectangle",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "port",
-      "score": 0.9997299909591675,
-      "points": [
-        [
-          55.0,
-          179.0
-        ]
-      ],
-      "group_id": 11,
-      "description": null,
-      "difficult": false,
-      "shape_type": "point",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "gnd",
-      "score": 0.9400128126144409,
-      "points": [
-        [
-          191.16144824028015,
-          178.95043849945068
-        ],
-        [
-          203.42868638038635,
-          178.95043849945068
-        ],
-        [
-          203.42868638038635,
-          186.537184715271
-        ],
-        [
-          191.16144824028015,
-          186.537184715271
-        ]
-      ],
-      "group_id": 12,
-      "description": null,
-      "difficult": false,
-      "shape_type": "rectangle",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "port",
-      "score": 0.9999134540557861,
-      "points": [
-        [
-          197.30215827338128,
-          180.03597122302156
-        ]
-      ],
-      "group_id": 12,
-      "description": null,
-      "difficult": false,
-      "shape_type": "point",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "resistor",
-      "score": 0.9380143880844116,
-      "points": [
-        [
-          316.5530495643616,
-          144.73426151275635
-        ],
-        [
-          340.08522510528564,
-          144.73426151275635
-        ],
-        [
-          340.08522510528564,
-          157.05824279785156
-        ],
-        [
-          316.5530495643616,
-          157.05824279785156
-        ]
-      ],
-      "group_id": 13,
-      "description": null,
-      "difficult": false,
-      "shape_type": "rectangle",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "Positive",
-      "score": 0.9994145631790161,
-      "points": [
-        [
-          317.98561151079133,
-          151.25899280575538
-        ]
-      ],
-      "group_id": 13,
-      "description": null,
-      "difficult": false,
-      "shape_type": "point",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "Negative",
-      "score": 0.9992431402206421,
-      "points": [
-        [
-          338.0,
-          150.0
-        ]
-      ],
-      "group_id": 13,
-      "description": null,
-      "difficult": false,
-      "shape_type": "point",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "capacitor",
-      "score": 0.9194910526275635,
-      "points": [
-        [
-          48.790777921676636,
-          148.74158716201782
-        ],
-        [
-          62.075138449668884,
-          148.74158716201782
-        ],
-        [
-          62.075138449668884,
-          156.1131091117859
-        ],
-        [
-          48.790777921676636,
-          156.1131091117859
-        ]
-      ],
-      "group_id": 14,
-      "description": null,
-      "difficult": false,
-      "shape_type": "rectangle",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "Positive",
-      "score": 0.9988279342651367,
-      "points": [
-        [
-          55.0,
-          149.0
-        ]
-      ],
-      "group_id": 14,
-      "description": null,
-      "difficult": false,
-      "shape_type": "point",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "Negative",
-      "score": 0.9993098378181458,
-      "points": [
-        [
-          55.0,
-          154.0
-        ]
-      ],
-      "group_id": 14,
-      "description": null,
-      "difficult": false,
-      "shape_type": "point",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "diode",
-      "score": 0.6638736724853516,
-      "points": [
-        [
-          78.8302173614502,
-          110.35160970687866
-        ],
-        [
-          87.29024481773376,
-          110.35160970687866
-        ],
-        [
-          87.29024481773376,
-          122.31605625152588
-        ],
-        [
-          78.8302173614502,
-          122.31605625152588
-        ]
-      ],
-      "group_id": 15,
-      "description": null,
-      "difficult": false,
-      "shape_type": "rectangle",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "In",
-      "score": 0.9984723925590515,
-      "points": [
-        [
-          86.8705035971223,
-          116.0071942446043
-        ]
-      ],
-      "group_id": 15,
-      "description": null,
-      "difficult": false,
-      "shape_type": "point",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "Out",
-      "score": 0.9995547533035278,
-      "points": [
-        [
-          79.67625899280574,
-          116.36690647482013
-        ]
-      ],
-      "group_id": 15,
-      "description": null,
-      "difficult": false,
-      "shape_type": "point",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "corner",
-      "score": 0.9551782608032227,
-      "points": [
-        [
-          194.38729906082153,
-          148.25421380996704
-        ],
-        [
-          200.66017198562622,
-          148.25421380996704
-        ],
-        [
-          200.66017198562622,
-          154.9201102256775
-        ],
-        [
-          194.38729906082153,
-          154.9201102256775
-        ]
-      ],
-      "group_id": 17,
-      "description": null,
-      "difficult": false,
-      "shape_type": "rectangle",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "corner",
-      "score": 0.8822791576385498,
-      "points": [
-        [
-          162.03889203071594,
-          112.854727268219
-        ],
-        [
-          168.79835104942322,
-          112.854727268219
-        ],
-        [
-          168.79835104942322,
-          120.17338180541992
-        ],
-        [
-          162.03889203071594,
-          120.17338180541992
-        ]
-      ],
-      "group_id": 18,
-      "description": null,
-      "difficult": false,
-      "shape_type": "rectangle",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "corner",
-      "score": 0.8541516065597534,
-      "points": [
-        [
-          52.306657671928406,
-          112.76110410690308
-        ],
-        [
-          59.132670283317566,
-          112.76110410690308
-        ],
-        [
-          59.132670283317566,
-          119.88324689865112
-        ],
-        [
-          52.306657671928406,
-          119.88324689865112
-        ]
-      ],
-      "group_id": 19,
-      "description": null,
-      "difficult": false,
-      "shape_type": "rectangle",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "corner",
-      "score": 0.8212321996688843,
-      "points": [
-        [
-          253.31906712055206,
-          211.1077537536621
-        ],
-        [
-          261.2840757369995,
-          211.1077537536621
-        ],
-        [
-          261.2840757369995,
-          219.16770267486572
-        ],
-        [
-          253.31906712055206,
-          219.16770267486572
-        ]
-      ],
-      "group_id": 20,
-      "description": null,
-      "difficult": false,
-      "shape_type": "rectangle",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "corner",
-      "score": 0.8028351068496704,
-      "points": [
-        [
-          108.3730937242508,
-          211.8977975845337
-        ],
-        [
-          114.97585809230804,
-          211.8977975845337
-        ],
-        [
-          114.97585809230804,
-          218.65198802947998
-        ],
-        [
-          108.3730937242508,
-          218.65198802947998
-        ]
-      ],
-      "group_id": 21,
-      "description": null,
-      "difficult": false,
-      "shape_type": "rectangle",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "corner",
-      "score": 0.8017781972885132,
-      "points": [
-        [
-          107.76794201135635,
-          112.79183745384216
-        ],
-        [
-          114.99463874101639,
-          112.79183745384216
-        ],
-        [
-          114.99463874101639,
-          120.1758041381836
-        ],
-        [
-          107.76794201135635,
-          120.1758041381836
-        ]
-      ],
-      "group_id": 22,
-      "description": null,
-      "difficult": false,
-      "shape_type": "rectangle",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "corner",
-      "score": 0.7747676372528076,
-      "points": [
-        [
-          361.8494610786438,
-          147.9119381904602
-        ],
-        [
-          368.71895456314087,
-          147.9119381904602
-        ],
-        [
-          368.71895456314087,
-          154.7592067718506
-        ],
-        [
-          361.8494610786438,
-          154.7592067718506
-        ]
-      ],
-      "group_id": 23,
-      "description": null,
-      "difficult": false,
-      "shape_type": "rectangle",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "corner",
-      "score": 0.6962617635726929,
-      "points": [
-        [
-          183.07742738723755,
-          211.69214153289795
-        ],
-        [
-          190.02921962738037,
-          211.69214153289795
-        ],
-        [
-          190.02921962738037,
-          219.16806602478027
-        ],
-        [
-          183.07742738723755,
-          219.16806602478027
-        ]
-      ],
-      "group_id": 24,
-      "description": null,
-      "difficult": false,
-      "shape_type": "rectangle",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "corner",
-      "score": 0.6549710035324097,
-      "points": [
-        [
-          361.88921761512756,
-          39.200262904167175
-        ],
-        [
-          368.4813539981842,
-          39.200262904167175
-        ],
-        [
-          368.4813539981842,
-          45.33648598194122
-        ],
-        [
-          361.88921761512756,
-          45.33648598194122
-        ]
-      ],
-      "group_id": 25,
-      "description": null,
-      "difficult": false,
-      "shape_type": "rectangle",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "corner",
-      "score": 0.6221417188644409,
-      "points": [
-        [
-          254.17683029174805,
-          147.81589269638062
-        ],
-        [
-          260.98861169815063,
-          147.81589269638062
-        ],
-        [
-          260.98861169815063,
-          155.3983998298645
-        ],
-        [
-          254.17683029174805,
-          155.3983998298645
-        ]
-      ],
-      "group_id": 26,
-      "description": null,
-      "difficult": false,
-      "shape_type": "rectangle",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "kie_linking": [],
-      "label": "corner",
-      "score": 0.5544426441192627,
-      "points": [
-        [
-          161.8278614282608,
-          38.77007174491882
-        ],
-        [
-          169.31138598918915,
-          38.77007174491882
-        ],
-        [
-          169.31138598918915,
-          46.29196000099182
-        ],
-        [
-          161.8278614282608,
-          46.29196000099182
-        ]
-      ],
-      "group_id": 27,
-      "description": null,
-      "difficult": false,
-      "shape_type": "rectangle",
-      "flags": {},
-      "attributes": {}
-    },
-    {
-      "label": "switch",
-      "score": null,
-      "points": [
-        [
-          202.3974358974359,
-          206.7307692307692
-        ],
-        [
-          218.42307692307693,
-          206.7307692307692
-        ],
-        [
-          218.42307692307693,
-          218.91025641025638
-        ],
-        [
-          202.3974358974359,
-          218.91025641025638
-        ]
-      ],
-      "group_id": null,
-      "description": "",
-      "difficult": false,
-      "shape_type": "rectangle",
-      "flags": {},
-      "attributes": {},
-      "kie_linking": []
-    },
-    {
-      "label": "switch",
-      "score": null,
-      "points": [
-        [
-          202.71794871794873,
-          233.65384615384613
-        ],
-        [
-          220.34615384615387,
-          233.65384615384613
-        ],
-        [
-          220.34615384615387,
-          245.19230769230768
-        ],
-        [
-          202.71794871794873,
-          245.19230769230768
-        ]
-      ],
-      "group_id": null,
-      "description": "",
-      "difficult": false,
-      "shape_type": "rectangle",
-      "flags": {},
-      "attributes": {},
-      "kie_linking": []
-    }
-  ],
-  "imagePath": "1313.png",
-  "imageData": "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M1xEUURRER/e3HBeMfxZG1aeJdMvLiG3SaeK4ml8lIbm0lgkLFHcHZIoYKVikwxG0lGAORiqA8EWEonivb2+vLGWW5mWxmaNY4nuPMEhVkRZOk0qjcxwH9QCJP8AhELadzcXuo6ld3u9Ct60iRSqirIoRfKRFA2zzDcBuHmEhgVQqARa1440vSdKvr2Fp72W1iuHMEFvK+GiZ0IkZUbylLxuodsKdrEZCmrtx4t0W2kulnu5IktUlaSYwS+UfLUtIqSbdjuoV8opLDY/HynFC78B2l1YXFpDqWo2ou4HgvXhMRa7V3kdi++NgpLTTN+7Cf6wjoFCwy/DrQpb3VrgRFW1GK4jfbbwb4mnBEjpKY/N3Hc/3nKjcQBgAAA39P1my1fzRatOskWC8NzbSW8ig5w2yRVbacMA2MEqwByDjWrNTTok1q51JWk8+4t4bd1ONoWNpGUjjOcytnnsOneCfw5odxqg1ObRdOl1AOri7e1RpQy42neRnIwMHPGBQBJq2rJpMUH+jz3Nxcy+Tb28G3fK+1nIBdlUYRHb5mH3cDJIBoWXi7TNRh0WS286VNWllhgZE3IjxK7OGdSU4MbAbWO7GV3KCwf4l8OJ4gtLaLzUSS3uBcRiZGkic7HjZZEVlLoVkYFdwB4ByuVNVfDF5G2ieRqUC/YNQn1C48y0LefJN5u8JiQeWv7+XAO8j5Mk4O4A3bu9t7GMNcSbd+7YiqWeQhS5VEGWdtqsdqgk4PFYreL4klNpLpOpRamzIsWnHyTLKHWRlZWEhiAxDMfmcH92eOV3X00lzcXd3PeSPeTI8MNxGig2sRPCxq24A8KzEg72AyNqoi85c+AnvUlkub2yF292tz5dvYtFZyOFkR2lhEu6RnWZw58wbwsYYFVIYA6PTNf03VtAXXIblI7Ao7PLI6hY9hKvlgSuFKsNwJU4yCRg1Tg8WWU2uQ6Z5M6G5lngtbhzHsuJYciVVUN5nylXBZkC/LwTuXctl4ZFsLeO7vPtEEMsl15Ai2I91JK8rSEZOVVm/doc7cZJdgrLU0/wYtlr7Xwuo2t1vZb+NPJbz/NkEoKtKXIMQ+0TFUVFwWzkncXANrRtXg1zTxf2sc6QtLLEFniMb5jkaNsqeV5Q8HB9QDxWrWF4d0q80fTpLW9vIbt3u57kSQ25hA82RpGXaXfoztg56YHUZO7QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q==",
-  "imageHeight": 275,
-  "imageWidth": 508,
-  "text": ""
+    "shapes": [
+        {
+            "kie_linking": [],
+            "label": "resistor",
+            "score": 0.9710874557495117,
+            "points": [
+                [
+                    106.07996213436127,
+                    139.61157274246216
+                ],
+                [
+                    117.86029624938965,
+                    139.61157274246216
+                ],
+                [
+                    117.86029624938965,
+                    162.53398656845093
+                ],
+                [
+                    106.07996213436127,
+                    162.53398656845093
+                ]
+            ],
+            "group_id": 0,
+            "description": null,
+            "difficult": false,
+            "shape_type": "rectangle",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "Positive",
+            "score": 0.9761683940887451,
+            "points": [
+                [
+                    111.51079136690646,
+                    141.0071942446043
+                ]
+            ],
+            "group_id": 0,
+            "description": null,
+            "difficult": false,
+            "shape_type": "point",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "Negative",
+            "score": 0.9995562434196472,
+            "points": [
+                [
+                    111.15107913669064,
+                    160.43165467625897
+                ]
+            ],
+            "group_id": 0,
+            "description": null,
+            "difficult": false,
+            "shape_type": "point",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "nmos-bulk",
+            "score": 0.9659073352813721,
+            "points": [
+                [
+                    346.92498445510864,
+                    164.54870128631592
+                ],
+                [
+                    367.27657651901245,
+                    164.54870128631592
+                ],
+                [
+                    367.27657651901245,
+                    191.9735050201416
+                ],
+                [
+                    346.92498445510864,
+                    191.9735050201416
+                ]
+            ],
+            "group_id": 1,
+            "description": null,
+            "difficult": false,
+            "shape_type": "rectangle",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "Drain",
+            "score": 0.9994719624519348,
+            "points": [
+                [
+                    364.0,
+                    168.0
+                ]
+            ],
+            "group_id": 1,
+            "description": null,
+            "difficult": false,
+            "shape_type": "point",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "Source",
+            "score": 0.9991613626480103,
+            "points": [
+                [
+                    364.0,
+                    187.0
+                ]
+            ],
+            "group_id": 1,
+            "description": null,
+            "difficult": false,
+            "shape_type": "point",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "Gate",
+            "score": 0.9999755024909973,
+            "points": [
+                [
+                    350.0,
+                    178.0
+                ]
+            ],
+            "group_id": 1,
+            "description": null,
+            "difficult": false,
+            "shape_type": "point",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "Body",
+            "score": 0.9983837604522705,
+            "points": [
+                [
+                    355.0,
+                    178.0
+                ]
+            ],
+            "group_id": 1,
+            "description": null,
+            "difficult": false,
+            "shape_type": "point",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "npn",
+            "score": 0.9595486521720886,
+            "points": [
+                [
+                    163.09751200675964,
+                    140.24573945999146
+                ],
+                [
+                    181.79053282737732,
+                    140.24573945999146
+                ],
+                [
+                    181.79053282737732,
+                    163.0251145362854
+                ],
+                [
+                    163.09751200675964,
+                    163.0251145362854
+                ]
+            ],
+            "group_id": 2,
+            "description": null,
+            "difficult": false,
+            "shape_type": "rectangle",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "Base",
+            "score": 0.9997714161872864,
+            "points": [
+                [
+                    179.0,
+                    150.0
+                ]
+            ],
+            "group_id": 2,
+            "description": null,
+            "difficult": false,
+            "shape_type": "point",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "Emitter",
+            "score": 0.999984622001648,
+            "points": [
+                [
+                    165.0,
+                    160.0
+                ]
+            ],
+            "group_id": 2,
+            "description": null,
+            "difficult": false,
+            "shape_type": "point",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "Collect",
+            "score": 0.9999766945838928,
+            "points": [
+                [
+                    166.0,
+                    141.0
+                ]
+            ],
+            "group_id": 2,
+            "description": null,
+            "difficult": false,
+            "shape_type": "point",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "resistor",
+            "score": 0.9570590257644653,
+            "points": [
+                [
+                    160.06258642673492,
+                    66.59198665618896
+                ],
+                [
+                    172.05534398555756,
+                    66.59198665618896
+                ],
+                [
+                    172.05534398555756,
+                    89.63466930389404
+                ],
+                [
+                    160.06258642673492,
+                    89.63466930389404
+                ]
+            ],
+            "group_id": 3,
+            "description": null,
+            "difficult": false,
+            "shape_type": "rectangle",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "Positive",
+            "score": 0.9996433854103088,
+            "points": [
+                [
+                    165.0,
+                    67.0
+                ]
+            ],
+            "group_id": 3,
+            "description": null,
+            "difficult": false,
+            "shape_type": "point",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "Negative",
+            "score": 0.999900221824646,
+            "points": [
+                [
+                    165.0,
+                    87.0
+                ]
+            ],
+            "group_id": 3,
+            "description": null,
+            "difficult": false,
+            "shape_type": "point",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "resistor",
+            "score": 0.9538332223892212,
+            "points": [
+                [
+                    49.93416818976402,
+                    66.67652606964111
+                ],
+                [
+                    61.94943830370903,
+                    66.67652606964111
+                ],
+                [
+                    61.94943830370903,
+                    89.42413830757141
+                ],
+                [
+                    49.93416818976402,
+                    89.42413830757141
+                ]
+            ],
+            "group_id": 4,
+            "description": null,
+            "difficult": false,
+            "shape_type": "rectangle",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "Positive",
+            "score": 0.9935551881790161,
+            "points": [
+                [
+                    55.0,
+                    66.0
+                ]
+            ],
+            "group_id": 4,
+            "description": null,
+            "difficult": false,
+            "shape_type": "point",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "Negative",
+            "score": 0.9997494220733643,
+            "points": [
+                [
+                    54.0,
+                    87.0
+                ]
+            ],
+            "group_id": 4,
+            "description": null,
+            "difficult": false,
+            "shape_type": "point",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "capacitor",
+            "score": 0.9490634202957153,
+            "points": [
+                [
+                    191.02322387695312,
+                    162.90962982177734
+                ],
+                [
+                    203.90718793869019,
+                    162.90962982177734
+                ],
+                [
+                    203.90718793869019,
+                    170.17432689666748
+                ],
+                [
+                    191.02322387695312,
+                    170.17432689666748
+                ]
+            ],
+            "group_id": 5,
+            "description": null,
+            "difficult": false,
+            "shape_type": "rectangle",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "Positive",
+            "score": 0.9999765157699585,
+            "points": [
+                [
+                    197.0,
+                    163.0
+                ]
+            ],
+            "group_id": 5,
+            "description": null,
+            "difficult": false,
+            "shape_type": "point",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "Negative",
+            "score": 0.9999805688858032,
+            "points": [
+                [
+                    197.0,
+                    168.0
+                ]
+            ],
+            "group_id": 5,
+            "description": null,
+            "difficult": false,
+            "shape_type": "point",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "resistor",
+            "score": 0.9463677406311035,
+            "points": [
+                [
+                    217.0368673801422,
+                    145.23344373703003
+                ],
+                [
+                    240.1068012714386,
+                    145.23344373703003
+                ],
+                [
+                    240.1068012714386,
+                    158.29853773117065
+                ],
+                [
+                    217.0368673801422,
+                    158.29853773117065
+                ]
+            ],
+            "group_id": 6,
+            "description": null,
+            "difficult": false,
+            "shape_type": "rectangle",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "Positive",
+            "score": 0.9991317987442017,
+            "points": [
+                [
+                    217.98561151079136,
+                    151.79856115107913
+                ]
+            ],
+            "group_id": 6,
+            "description": null,
+            "difficult": false,
+            "shape_type": "point",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "Negative",
+            "score": 0.9999158382415771,
+            "points": [
+                [
+                    238.0,
+                    150.0
+                ]
+            ],
+            "group_id": 6,
+            "description": null,
+            "difficult": false,
+            "shape_type": "point",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "gnd",
+            "score": 0.9427463412284851,
+            "points": [
+                [
+                    359.2972912788391,
+                    244.80600571632385
+                ],
+                [
+                    371.39526891708374,
+                    244.80600571632385
+                ],
+                [
+                    371.39526891708374,
+                    252.4124939441681
+                ],
+                [
+                    359.2972912788391,
+                    252.4124939441681
+                ]
+            ],
+            "group_id": 7,
+            "description": null,
+            "difficult": false,
+            "shape_type": "rectangle",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "port",
+            "score": 0.9985547065734863,
+            "points": [
+                [
+                    365.3207547169811,
+                    246.14065180102915
+                ]
+            ],
+            "group_id": 7,
+            "description": null,
+            "difficult": false,
+            "shape_type": "point",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "capacitor",
+            "score": 0.9423738718032837,
+            "points": [
+                [
+                    104.9622220993042,
+                    228.77939796447754
+                ],
+                [
+                    117.93644833564758,
+                    228.77939796447754
+                ],
+                [
+                    117.93644833564758,
+                    236.09871864318848
+                ],
+                [
+                    104.9622220993042,
+                    236.09871864318848
+                ]
+            ],
+            "group_id": 8,
+            "description": null,
+            "difficult": false,
+            "shape_type": "rectangle",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "Positive",
+            "score": 0.9999587535858154,
+            "points": [
+                [
+                    111.0,
+                    229.0
+                ]
+            ],
+            "group_id": 8,
+            "description": null,
+            "difficult": false,
+            "shape_type": "point",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "Negative",
+            "score": 0.9999697804450989,
+            "points": [
+                [
+                    111.0,
+                    234.0
+                ]
+            ],
+            "group_id": 8,
+            "description": null,
+            "difficult": false,
+            "shape_type": "point",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "gnd",
+            "score": 0.9415583610534668,
+            "points": [
+                [
+                    159.15098690986633,
+                    178.7340636253357
+                ],
+                [
+                    171.46770119667053,
+                    178.7340636253357
+                ],
+                [
+                    171.46770119667053,
+                    186.50490713119507
+                ],
+                [
+                    159.15098690986633,
+                    186.50490713119507
+                ]
+            ],
+            "group_id": 9,
+            "description": null,
+            "difficult": false,
+            "shape_type": "rectangle",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "port",
+            "score": 0.9995900988578796,
+            "points": [
+                [
+                    165.28776978417264,
+                    179.49640287769782
+                ]
+            ],
+            "group_id": 9,
+            "description": null,
+            "difficult": false,
+            "shape_type": "point",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "gnd",
+            "score": 0.940516471862793,
+            "points": [
+                [
+                    105.40165597200394,
+                    244.8620524406433
+                ],
+                [
+                    117.63697987794876,
+                    244.8620524406433
+                ],
+                [
+                    117.63697987794876,
+                    252.33131551742554
+                ],
+                [
+                    105.40165597200394,
+                    252.33131551742554
+                ]
+            ],
+            "group_id": 10,
+            "description": null,
+            "difficult": false,
+            "shape_type": "rectangle",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "port",
+            "score": 0.9997658133506775,
+            "points": [
+                [
+                    111.0,
+                    245.0
+                ]
+            ],
+            "group_id": 10,
+            "description": null,
+            "difficult": false,
+            "shape_type": "point",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "gnd",
+            "score": 0.9402591586112976,
+            "points": [
+                [
+                    49.289150178432465,
+                    178.88960766792297
+                ],
+                [
+                    61.52005332708359,
+                    178.88960766792297
+                ],
+                [
+                    61.52005332708359,
+                    186.40223050117493
+                ],
+                [
+                    49.289150178432465,
+                    186.40223050117493
+                ]
+            ],
+            "group_id": 11,
+            "description": null,
+            "difficult": false,
+            "shape_type": "rectangle",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "port",
+            "score": 0.9997299909591675,
+            "points": [
+                [
+                    55.0,
+                    179.0
+                ]
+            ],
+            "group_id": 11,
+            "description": null,
+            "difficult": false,
+            "shape_type": "point",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "gnd",
+            "score": 0.9400128126144409,
+            "points": [
+                [
+                    191.16144824028015,
+                    178.95043849945068
+                ],
+                [
+                    203.42868638038635,
+                    178.95043849945068
+                ],
+                [
+                    203.42868638038635,
+                    186.537184715271
+                ],
+                [
+                    191.16144824028015,
+                    186.537184715271
+                ]
+            ],
+            "group_id": 12,
+            "description": null,
+            "difficult": false,
+            "shape_type": "rectangle",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "port",
+            "score": 0.9999134540557861,
+            "points": [
+                [
+                    197.30215827338128,
+                    180.03597122302156
+                ]
+            ],
+            "group_id": 12,
+            "description": null,
+            "difficult": false,
+            "shape_type": "point",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "resistor",
+            "score": 0.9380143880844116,
+            "points": [
+                [
+                    316.5530495643616,
+                    144.73426151275635
+                ],
+                [
+                    340.08522510528564,
+                    144.73426151275635
+                ],
+                [
+                    340.08522510528564,
+                    157.05824279785156
+                ],
+                [
+                    316.5530495643616,
+                    157.05824279785156
+                ]
+            ],
+            "group_id": 13,
+            "description": null,
+            "difficult": false,
+            "shape_type": "rectangle",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "Positive",
+            "score": 0.9994145631790161,
+            "points": [
+                [
+                    317.98561151079133,
+                    151.25899280575538
+                ]
+            ],
+            "group_id": 13,
+            "description": null,
+            "difficult": false,
+            "shape_type": "point",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "Negative",
+            "score": 0.9992431402206421,
+            "points": [
+                [
+                    338.0,
+                    150.0
+                ]
+            ],
+            "group_id": 13,
+            "description": null,
+            "difficult": false,
+            "shape_type": "point",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "capacitor",
+            "score": 0.9194910526275635,
+            "points": [
+                [
+                    48.790777921676636,
+                    148.74158716201782
+                ],
+                [
+                    62.075138449668884,
+                    148.74158716201782
+                ],
+                [
+                    62.075138449668884,
+                    156.1131091117859
+                ],
+                [
+                    48.790777921676636,
+                    156.1131091117859
+                ]
+            ],
+            "group_id": 14,
+            "description": null,
+            "difficult": false,
+            "shape_type": "rectangle",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "Positive",
+            "score": 0.9988279342651367,
+            "points": [
+                [
+                    55.0,
+                    149.0
+                ]
+            ],
+            "group_id": 14,
+            "description": null,
+            "difficult": false,
+            "shape_type": "point",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "Negative",
+            "score": 0.9993098378181458,
+            "points": [
+                [
+                    55.0,
+                    154.0
+                ]
+            ],
+            "group_id": 14,
+            "description": null,
+            "difficult": false,
+            "shape_type": "point",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "diode",
+            "score": 0.6638736724853516,
+            "points": [
+                [
+                    78.8302173614502,
+                    110.35160970687866
+                ],
+                [
+                    87.29024481773376,
+                    110.35160970687866
+                ],
+                [
+                    87.29024481773376,
+                    122.31605625152588
+                ],
+                [
+                    78.8302173614502,
+                    122.31605625152588
+                ]
+            ],
+            "group_id": 15,
+            "description": null,
+            "difficult": false,
+            "shape_type": "rectangle",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "In",
+            "score": 0.9984723925590515,
+            "points": [
+                [
+                    86.8705035971223,
+                    116.0071942446043
+                ]
+            ],
+            "group_id": 15,
+            "description": null,
+            "difficult": false,
+            "shape_type": "point",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "Out",
+            "score": 0.9995547533035278,
+            "points": [
+                [
+                    79.67625899280574,
+                    116.36690647482013
+                ]
+            ],
+            "group_id": 15,
+            "description": null,
+            "difficult": false,
+            "shape_type": "point",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "corner",
+            "score": 0.9551782608032227,
+            "points": [
+                [
+                    194.38729906082153,
+                    148.25421380996704
+                ],
+                [
+                    200.66017198562622,
+                    148.25421380996704
+                ],
+                [
+                    200.66017198562622,
+                    154.9201102256775
+                ],
+                [
+                    194.38729906082153,
+                    154.9201102256775
+                ]
+            ],
+            "group_id": 17,
+            "description": null,
+            "difficult": false,
+            "shape_type": "rectangle",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "corner",
+            "score": 0.8822791576385498,
+            "points": [
+                [
+                    162.03889203071594,
+                    112.854727268219
+                ],
+                [
+                    168.79835104942322,
+                    112.854727268219
+                ],
+                [
+                    168.79835104942322,
+                    120.17338180541992
+                ],
+                [
+                    162.03889203071594,
+                    120.17338180541992
+                ]
+            ],
+            "group_id": 18,
+            "description": null,
+            "difficult": false,
+            "shape_type": "rectangle",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "corner",
+            "score": 0.8541516065597534,
+            "points": [
+                [
+                    52.306657671928406,
+                    112.76110410690308
+                ],
+                [
+                    59.132670283317566,
+                    112.76110410690308
+                ],
+                [
+                    59.132670283317566,
+                    119.88324689865112
+                ],
+                [
+                    52.306657671928406,
+                    119.88324689865112
+                ]
+            ],
+            "group_id": 19,
+            "description": null,
+            "difficult": false,
+            "shape_type": "rectangle",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "corner",
+            "score": 0.8212321996688843,
+            "points": [
+                [
+                    253.31906712055206,
+                    211.1077537536621
+                ],
+                [
+                    261.2840757369995,
+                    211.1077537536621
+                ],
+                [
+                    261.2840757369995,
+                    219.16770267486572
+                ],
+                [
+                    253.31906712055206,
+                    219.16770267486572
+                ]
+            ],
+            "group_id": 20,
+            "description": null,
+            "difficult": false,
+            "shape_type": "rectangle",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "corner",
+            "score": 0.8028351068496704,
+            "points": [
+                [
+                    108.3730937242508,
+                    211.8977975845337
+                ],
+                [
+                    114.97585809230804,
+                    211.8977975845337
+                ],
+                [
+                    114.97585809230804,
+                    218.65198802947998
+                ],
+                [
+                    108.3730937242508,
+                    218.65198802947998
+                ]
+            ],
+            "group_id": 21,
+            "description": null,
+            "difficult": false,
+            "shape_type": "rectangle",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "corner",
+            "score": 0.8017781972885132,
+            "points": [
+                [
+                    107.76794201135635,
+                    112.79183745384216
+                ],
+                [
+                    114.99463874101639,
+                    112.79183745384216
+                ],
+                [
+                    114.99463874101639,
+                    120.1758041381836
+                ],
+                [
+                    107.76794201135635,
+                    120.1758041381836
+                ]
+            ],
+            "group_id": 22,
+            "description": null,
+            "difficult": false,
+            "shape_type": "rectangle",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "corner",
+            "score": 0.7747676372528076,
+            "points": [
+                [
+                    361.8494610786438,
+                    147.9119381904602
+                ],
+                [
+                    368.71895456314087,
+                    147.9119381904602
+                ],
+                [
+                    368.71895456314087,
+                    154.7592067718506
+                ],
+                [
+                    361.8494610786438,
+                    154.7592067718506
+                ]
+            ],
+            "group_id": 23,
+            "description": null,
+            "difficult": false,
+            "shape_type": "rectangle",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "corner",
+            "score": 0.6962617635726929,
+            "points": [
+                [
+                    183.07742738723755,
+                    211.69214153289795
+                ],
+                [
+                    190.02921962738037,
+                    211.69214153289795
+                ],
+                [
+                    190.02921962738037,
+                    219.16806602478027
+                ],
+                [
+                    183.07742738723755,
+                    219.16806602478027
+                ]
+            ],
+            "group_id": 24,
+            "description": null,
+            "difficult": false,
+            "shape_type": "rectangle",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "corner",
+            "score": 0.6549710035324097,
+            "points": [
+                [
+                    361.88921761512756,
+                    39.200262904167175
+                ],
+                [
+                    368.4813539981842,
+                    39.200262904167175
+                ],
+                [
+                    368.4813539981842,
+                    45.33648598194122
+                ],
+                [
+                    361.88921761512756,
+                    45.33648598194122
+                ]
+            ],
+            "group_id": 25,
+            "description": null,
+            "difficult": false,
+            "shape_type": "rectangle",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "corner",
+            "score": 0.6221417188644409,
+            "points": [
+                [
+                    254.17683029174805,
+                    147.81589269638062
+                ],
+                [
+                    260.98861169815063,
+                    147.81589269638062
+                ],
+                [
+                    260.98861169815063,
+                    155.3983998298645
+                ],
+                [
+                    254.17683029174805,
+                    155.3983998298645
+                ]
+            ],
+            "group_id": 26,
+            "description": null,
+            "difficult": false,
+            "shape_type": "rectangle",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "kie_linking": [],
+            "label": "corner",
+            "score": 0.5544426441192627,
+            "points": [
+                [
+                    161.8278614282608,
+                    38.77007174491882
+                ],
+                [
+                    169.31138598918915,
+                    38.77007174491882
+                ],
+                [
+                    169.31138598918915,
+                    46.29196000099182
+                ],
+                [
+                    161.8278614282608,
+                    46.29196000099182
+                ]
+            ],
+            "group_id": 27,
+            "description": null,
+            "difficult": false,
+            "shape_type": "rectangle",
+            "flags": {},
+            "attributes": {}
+        },
+        {
+            "label": "switch",
+            "score": null,
+            "points": [
+                [
+                    202.3974358974359,
+                    206.7307692307692
+                ],
+                [
+                    218.42307692307693,
+                    206.7307692307692
+                ],
+                [
+                    218.42307692307693,
+                    218.91025641025638
+                ],
+                [
+                    202.3974358974359,
+                    218.91025641025638
+                ]
+            ],
+            "group_id": 28,
+            "description": "",
+            "difficult": false,
+            "shape_type": "rectangle",
+            "flags": {},
+            "attributes": {},
+            "kie_linking": []
+        },
+        {
+            "label": "switch",
+            "score": null,
+            "points": [
+                [
+                    202.71794871794873,
+                    233.65384615384613
+                ],
+                [
+                    220.34615384615387,
+                    233.65384615384613
+                ],
+                [
+                    220.34615384615387,
+                    245.19230769230768
+                ],
+                [
+                    202.71794871794873,
+                    245.19230769230768
+                ]
+            ],
+            "group_id": 29,
+            "description": "",
+            "difficult": false,
+            "shape_type": "rectangle",
+            "flags": {},
+            "attributes": {},
+            "kie_linking": []
+        }
+    ],
+    "imagePath": "1313.png",
+    "imageData": "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M1xEUURRER/e3HBeMfxZG1aeJdMvLiG3SaeK4ml8lIbm0lgkLFHcHZIoYKVikwxG0lGAORiqA8EWEonivb2+vLGWW5mWxmaNY4nuPMEhVkRZOk0qjcxwH9QCJP8AhELadzcXuo6ld3u9Ct60iRSqirIoRfKRFA2zzDcBuHmEhgVQqARa1440vSdKvr2Fp72W1iuHMEFvK+GiZ0IkZUbylLxuodsKdrEZCmrtx4t0W2kulnu5IktUlaSYwS+UfLUtIqSbdjuoV8opLDY/HynFC78B2l1YXFpDqWo2ou4HgvXhMRa7V3kdi++NgpLTTN+7Cf6wjoFCwy/DrQpb3VrgRFW1GK4jfbbwb4mnBEjpKY/N3Hc/3nKjcQBgAAA39P1my1fzRatOskWC8NzbSW8ig5w2yRVbacMA2MEqwByDjWrNTTok1q51JWk8+4t4bd1ONoWNpGUjjOcytnnsOneCfw5odxqg1ObRdOl1AOri7e1RpQy42neRnIwMHPGBQBJq2rJpMUH+jz3Nxcy+Tb28G3fK+1nIBdlUYRHb5mH3cDJIBoWXi7TNRh0WS286VNWllhgZE3IjxK7OGdSU4MbAbWO7GV3KCwf4l8OJ4gtLaLzUSS3uBcRiZGkic7HjZZEVlLoVkYFdwB4ByuVNVfDF5G2ieRqUC/YNQn1C48y0LefJN5u8JiQeWv7+XAO8j5Mk4O4A3bu9t7GMNcSbd+7YiqWeQhS5VEGWdtqsdqgk4PFYreL4klNpLpOpRamzIsWnHyTLKHWRlZWEhiAxDMfmcH92eOV3X00lzcXd3PeSPeTI8MNxGig2sRPCxq24A8KzEg72AyNqoi85c+AnvUlkub2yF292tz5dvYtFZyOFkR2lhEu6RnWZw58wbwsYYFVIYA6PTNf03VtAXXIblI7Ao7PLI6hY9hKvlgSuFKsNwJU4yCRg1Tg8WWU2uQ6Z5M6G5lngtbhzHsuJYciVVUN5nylXBZkC/LwTuXctl4ZFsLeO7vPtEEMsl15Ai2I91JK8rSEZOVVm/doc7cZJdgrLU0/wYtlr7Xwuo2t1vZb+NPJbz/NkEoKtKXIMQ+0TFUVFwWzkncXANrRtXg1zTxf2sc6QtLLEFniMb5jkaNsqeV5Q8HB9QDxWrWF4d0q80fTpLW9vIbt3u57kSQ25hA82RpGXaXfoztg56YHUZO7QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q==",
+    "imageHeight": 275,
+    "imageWidth": 508,
+    "text": ""
 }
